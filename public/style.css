@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #F8F8F5;
+}
+
+div, body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica Neue, Arial;
+	color: #151515;
+}
+
+h1 {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 50px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+a {
+	color: #151515;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+p {
+	font-style: normal;
+	font-weight: normal;
+	line-height: 26px;
+	font-size: 16px;
+	width: 600px;
+}
+
+#content {
+	width: 800px;
+	margin: 40px auto;
+	/*text-align: center;*/
+}
+
+.link-index {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #151515;
+}
