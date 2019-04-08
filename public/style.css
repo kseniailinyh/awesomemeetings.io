@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-	background-color: #F8F8F5;
+	background-color: #FFFEFC;
 }
 
 div, body{
@@ -14,38 +14,69 @@ div, body{
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: normal;
+	text-align: center;
+}
+
+h2 {
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 a {
 	color: #151515;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(21,21,21,.3);
 }
 
 a:hover {
 	opacity: 0.7;
 }
 
-p {
+.link-index {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #151515;
+}
+
+p .fotorama__select {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 22px;
-	line-height: 29px;
+	font-size: 24px;
+	line-height: 30px;
 	width: 600px;
 }
 
 #content {
-	width: 600px;
 	margin: 40px auto;
-	/*text-align: center;*/
+	text-align: center;
+	width: 50%;
 }
 
-.link-index {
-	font-size: 20px;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #151515;
+.fotorama {
+	/*margin-top: 50px;*/
+}
+
+.title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.caption {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 10px;
 }
