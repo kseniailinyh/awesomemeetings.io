@@ -9,25 +9,27 @@ body {
 div, body{
 	margin: 0;
 	padding: 0;
-	font-family: Cormorant Garamond;
+	font-family: 'Cormorant', serif;
 	color: #151515;
 }
 
 h1 {
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 50px;
 	line-height: normal;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 h2 {
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: normal;
 	font-size: 30px;
+	margin-top: 60px;
 }
 
 a {
@@ -44,7 +46,6 @@ a:hover {
 	font-size: 20px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	color: #151515;
 }
 
 .text {
@@ -59,22 +60,21 @@ a:hover {
 	text-align: left;
 }
 
-#content {
-	margin: 40px auto;
+.content {
+	margin: 70px auto 150px;
 	text-align: center;
 	width: 50%;
 }
 
-.fotorama {
-	/*margin-top: 50px;*/
+.fotorama-content {
+	margin: 0 auto;
+	padding-top: 70px;
+	text-align: center;
+	width: 50%;
 }
 
-.title {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 50px;
-	line-height: normal;
-	margin-bottom: 10px;
+.fotorama img {
+	margin-top: 50px;
 }
 
 .caption {
@@ -83,4 +83,13 @@ a:hover {
 	font-size: 22px;
 	line-height: 29px;
 	margin-top: 10px;
+}
+
+.description img {
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.cover {
+	width: 100%;
 }
