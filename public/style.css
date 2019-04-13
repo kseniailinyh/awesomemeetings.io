@@ -49,15 +49,13 @@ a:hover {
 }
 
 .text {
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 30px;
 	text-align: left;
 }
 
-.description {
-	text-align: left;
+.avatar {
+	border-radius: 50%;
 }
 
 .content {
@@ -75,6 +73,7 @@ a:hover {
 
 .fotorama img {
 	margin-top: 50px;
+	width: 100%
 }
 
 .caption {
@@ -83,11 +82,6 @@ a:hover {
 	font-size: 22px;
 	line-height: 29px;
 	margin-top: 10px;
-}
-
-.description img {
-	border-radius: 50%;
-	margin: 0 auto;
 }
 
 .cover {
