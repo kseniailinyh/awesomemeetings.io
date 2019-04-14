@@ -48,6 +48,22 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.link-to-read {
+	position: absolute;
+	top: 300px;
+	left: 507px;
+	border: 1px solid #151515;
+	border-radius: 48px;
+	padding: 15px 30px;
+	background-color: #FFFEFC;
+}
+
+.link-to-read:hover {
+	background-color: #151515;
+	color: #FFFEFC;
+	opacity: 1;
+}
+
 .text {
 	font-size: 24px;
 	line-height: 30px;
