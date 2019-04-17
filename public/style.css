@@ -48,10 +48,20 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.link-to-read {
+.main-picture {
+	background-image: url('back-01.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	max-width: 597px;
+	height: 309px;
+}
+
+.fotorama-link {
 	position: absolute;
-	top: 300px;
-	left: 507px;
+	margin: 50px auto;
+}
+
+.link-to-read {
 	border: 1px solid #151515;
 	border-radius: 48px;
 	padding: 15px 30px;
