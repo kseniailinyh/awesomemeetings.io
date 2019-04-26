@@ -48,6 +48,32 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.main-picture {
+	background-image: url('back-01.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	max-width: 597px;
+	height: 309px;
+}
+
+.fotorama-link {
+	position: absolute;
+	margin: 50px auto;
+}
+
+.link-to-read {
+	border: 1px solid #151515;
+	border-radius: 48px;
+	padding: 15px 30px;
+	background-color: #FFFEFC;
+}
+
+.link-to-read:hover {
+	background-color: #151515;
+	color: #FFFEFC;
+	opacity: 1;
+}
+
 .text {
 	font-size: 24px;
 	line-height: 30px;
