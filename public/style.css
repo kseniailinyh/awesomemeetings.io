@@ -95,6 +95,10 @@ a:hover {
 		.content {
 			width: 80%;
 		}
+
+		.fotorama-content {
+			width: 80%;
+		}
 }
 
 .fotorama-content {
