@@ -57,14 +57,15 @@ a:hover {
 }
 
 .fotorama-link {
-	position: absolute;
-	margin: 50px auto;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 100px;
 }
 
 .link-to-read {
 	border: 1px solid #151515;
 	border-radius: 48px;
-	padding: 15px 30px;
+	padding: 12px 24px;
 	background-color: #FFFEFC;
 }
 
@@ -88,6 +89,12 @@ a:hover {
 	margin: 70px auto 150px;
 	text-align: center;
 	width: 50%;
+}
+
+@media (max-width: 768px) {
+		.content {
+			width: 80%;
+		}
 }
 
 .fotorama-content {
