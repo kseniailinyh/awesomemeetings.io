@@ -121,26 +121,26 @@ a:hover {
 		}
 
 		h1 {
-			font-size: 7vw;
+			font-size: 8vw;
 		}
 
 		h2 {
-			font-size: 5vw;
+			font-size: 6vw;
 		}
 
 		.link-index {
-			font-size: 3.6vw;
+			font-size: 4vw;
 		}
 
 		.text {
-			font-size: 3.8vw;
+			font-size: 4.5vw;
+		}
+
+		.caption {
+			font-size: 4.5vw;
 		}
 
 		.fotorama-content {
 			width: 80%;
-		}
-
-		.caption {
-			font-size: 4vw;
 		}
 }
