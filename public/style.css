@@ -91,32 +91,6 @@ a:hover {
 	width: 50%;
 }
 
-@media (max-width: 768px) {
-		.content {
-			width: 80%;
-		}
-
-		h1 {
-			font-size: 7vw;
-		}
-
-		h2 {
-			font-size: 4.2vw;
-		}
-
-		.link-index {
-
-		}
-
-		.text {
-
-		}
-
-		.fotorama-content {
-			width: 80%;
-		}
-}
-
 .fotorama-content {
 	margin: 0 auto;
 	padding-top: 70px;
@@ -139,4 +113,34 @@ a:hover {
 
 .cover {
 	width: 100%;
+}
+
+@media (max-width: 768px) {
+		.content {
+			width: 80%;
+		}
+
+		h1 {
+			font-size: 7vw;
+		}
+
+		h2 {
+			font-size: 5vw;
+		}
+
+		.link-index {
+			font-size: 3.6vw;
+		}
+
+		.text {
+			font-size: 3.8vw;
+		}
+
+		.fotorama-content {
+			width: 80%;
+		}
+
+		.caption {
+			font-size: 4vw;
+		}
 }
