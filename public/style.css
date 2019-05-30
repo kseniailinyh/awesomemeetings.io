@@ -115,17 +115,17 @@ a:hover {
 	width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 		.content {
 			width: 80%;
 		}
 
 		h1 {
-			font-size: 8vw;
+			font-size: 10vw;
 		}
 
 		h2 {
-			font-size: 6vw;
+			font-size: 7vw;
 		}
 
 		.link-index {
@@ -133,11 +133,11 @@ a:hover {
 		}
 
 		.text {
-			font-size: 4.5vw;
+			font-size: 5vw;
 		}
 
 		.caption {
-			font-size: 4.5vw;
+			font-size: 5vw;
 		}
 
 		.fotorama-content {
