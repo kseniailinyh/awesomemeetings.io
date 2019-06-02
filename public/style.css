@@ -53,7 +53,7 @@ a:hover {
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	max-width: 597px;
-	height: 309px;
+	height: 25vw;
 }
 
 .fotorama-link {
@@ -142,6 +142,10 @@ a:hover {
 
 		.fotorama-content {
 			width: 80%;
+		}
+
+		.main-picture {
+			height: 42vw;
 		}
 }
 
