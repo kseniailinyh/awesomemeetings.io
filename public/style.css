@@ -115,7 +115,37 @@ a:hover {
 	width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+		.content {
+			width: 80%;
+		}
+
+		h1 {
+			font-size: 8vw;
+		}
+
+		h2 {
+			font-size: 4vw;
+		}
+
+		.link-index {
+			font-size: 3vw;
+		}
+
+		.text {
+			font-size: 3vw;
+		}
+
+		.caption {
+			font-size: 3vw;
+		}
+
+		.fotorama-content {
+			width: 80%;
+		}
+}
+
+@media (max-width: 320px) {
 		.content {
 			width: 80%;
 		}
