@@ -1,12 +1,5 @@
-html, body {
-	height: 100%;
-}
-
 body {
 	background-color: #FFFEFC;
-}
-
-div, body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Cormorant', serif;
@@ -87,7 +80,7 @@ a:hover {
 }
 
 .content {
-	margin: 6vw auto 100px;
+	margin: 6vw auto 12vw;
 	text-align: center;
 	width: 50%;
 }
