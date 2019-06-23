@@ -4,14 +4,18 @@ body {
 	padding: 0;
 	font-family: 'Cormorant', serif;
 	color: #151515;
+	font-size: calc(18px + 0.35vw);
+	line-height: calc(20px + 1vw);
 }
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 5vw;
-	line-height: normal;
+	/* font-size: 5vw;
+	line-height: normal; */
+	font-size: 2.5em;
+	line-height: calc(32px + 2vw);
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -20,8 +24,10 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	line-height: normal;
-	font-size: 3vw;
+	/* font-size: 3vw;
+	line-height: normal; */
+	font-size: 2em;
+  line-height: calc(32px + 2vw);
 	margin-top: 60px;
 }
 
@@ -36,7 +42,7 @@ a:hover {
 }
 
 .link-index {
-	font-size: 1.8vw;
+	/* font-size: 1.8vw; */
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -69,8 +75,8 @@ a:hover {
 }
 
 .text {
-	font-size: 1.8vw;
-	line-height: 1.4;
+	/* font-size: 1.8vw;
+	line-height: 1.4; */
 	text-align: left;
 }
 
@@ -101,8 +107,8 @@ a:hover {
 .caption {
 	font-style: italic;
 	font-weight: normal;
-	font-size: 2vw;
-	line-height: 1.4;
+	/* font-size: 2vw;
+	line-height: 1.4; */
 	margin-top: 10px;
 }
 
@@ -113,26 +119,6 @@ a:hover {
 @media (max-width: 768px) {
 		.content {
 			width: 80%;
-		}
-
-		h1 {
-			font-size: 8vw;
-		}
-
-		h2 {
-			font-size: 4vw;
-		}
-
-		.link-index {
-			font-size: 3vw;
-		}
-
-		.text {
-			font-size: 3vw;
-		}
-
-		.caption {
-			font-size: 3vw;
 		}
 
 		.fotorama-content {
@@ -147,26 +133,6 @@ a:hover {
 @media (max-width: 500px) {
 		.content {
 			width: 80%;
-		}
-
-		h1 {
-			font-size: 10vw;
-		}
-
-		h2 {
-			font-size: 7vw;
-		}
-
-		.link-index {
-			font-size: 4vw;
-		}
-
-		.text {
-			font-size: 5vw;
-		}
-
-		.caption {
-			font-size: 5vw;
 		}
 
 		.fotorama-content {
