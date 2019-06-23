@@ -83,6 +83,7 @@ a:hover {
 	margin: 6vw auto 12vw;
 	text-align: center;
 	width: 50%;
+	max-width: 800px;
 }
 
 .fotorama-content {
