@@ -12,9 +12,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	/* font-size: 5vw;
-	line-height: normal; */
-	font-size: 2.5em;
+	font-size: 2.3em;
 	line-height: calc(32px + 2vw);
 	text-align: center;
 	margin-bottom: 10px;
@@ -24,10 +22,8 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	/* font-size: 3vw;
-	line-height: normal; */
-	font-size: 2em;
-  line-height: calc(32px + 2vw);
+	font-size: 1.6em;
+  line-height: calc(20px + 2vw);
 	margin-top: 60px;
 }
 
@@ -42,7 +38,6 @@ a:hover {
 }
 
 .link-index {
-	/* font-size: 1.8vw; */
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -75,8 +70,6 @@ a:hover {
 }
 
 .text {
-	/* font-size: 1.8vw;
-	line-height: 1.4; */
 	text-align: left;
 }
 
@@ -96,7 +89,16 @@ a:hover {
 	margin: 0 auto;
 	padding-top: 70px;
 	text-align: center;
-	width: 50%;
+	width: 70%;
+}
+
+.fotorama {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 5vw;
 }
 
 .fotorama img {
@@ -107,8 +109,6 @@ a:hover {
 .caption {
 	font-style: italic;
 	font-weight: normal;
-	/* font-size: 2vw;
-	line-height: 1.4; */
 	margin-top: 10px;
 }
 
@@ -136,6 +136,10 @@ a:hover {
 		}
 
 		.fotorama-content {
-			width: 80%;
+			width: 100%;
+		}
+
+		.wrapper {
+			margin: 0 8vw;
 		}
 }
